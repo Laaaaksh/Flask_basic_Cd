@@ -7,6 +7,11 @@ app= Flask(__name__)
 def index(user=None):
     return render_template("user.html", user=user)
 
+@app.route('/list')
+def list_():
+    food= ["Cheese", "Tuna", "Chicken"]
+    return render_template("list.html", food=food)
+
 # @app.route('/')
 # def index():
 #     return "Hey you are back on the Home page"
