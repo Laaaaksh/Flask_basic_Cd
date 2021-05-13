@@ -1,2 +1,3 @@
 # Flask_basic_Cd
-I was trying my hands on flask. For basic web development.
+This repo will contain all the basic information, that you'll needing while using,   
+Flask for Web Development
